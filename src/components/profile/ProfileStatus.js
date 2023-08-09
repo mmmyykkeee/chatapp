@@ -47,11 +47,11 @@ export const ProfileStatus = () => {
             placeholder="Find a user"
           />
         </div>
-        <div className="pl-2 space-y-4">
+        <div className="space-y-1">
           {chats.map((chats, index) => {
             return (
               <div key={index}>
-                <div className="flex items-center space-x-3">
+                <div className="flex items-center pl-2 py-1 space-x-3 cursor-pointer hover:bg-[#333]">
                   <div>
                     <img
                       src={chats.profilePic}
